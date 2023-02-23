@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Web page with style</title>
+<link rel="stylesheet" href="normalize.css">
+
+<style >
+    body{
+        background: linear-gradient(#9A25E9,#6F5DC9) ;
+    }
+
+    #navbar{
+        display:flex;
+        width: 100%;
+        height: 15px;
+        background-color: #200E3D;
+        justify-content: center;
+        padding:15px;
+        flex-wrap: nowrap;
+        position: fixed;
+        top:0px
+        
+    }
+    .nav-item{
+        display:flex;
+        width: 90px;
+    
+    }
+    a{
+        color:white;
+        text-decoration: none;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 85%;
+
+    }
+    a:hover{
+        color:aqua;
+        transition: 0.8s ;
+    }
+    .image{
+       
+        width :350px;
+        height: 350px;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    img{
+
+        border-radius: 1000px;
+    }
+    .abt{
+        text-align: center;
+        font-size: 70%;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #about{
+        display: block;
+        width: 60%;
+        height: 400px;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 6px 6px lightskyblue  ,-6px -6px orange ;
+
+    }
+</style>
+
+</head>
+ 
+
+<body>
+
+<div id="navbar">
+
+    <div class="nav-item"> <a href=""> ABOUT ME  </a> </div>
+    <div class="nav-item"> <a href="">  PROJECTS  </a> </div>
+    <div class="nav-item"> <a href=""> CONTACT ME  </a> </div>
+    
+</div>
+
+<div class="image">
+
+    <img src="rob.jpeg" width="350px" height="350px" class="center">
+
+</div>
+
+<div class="abt"><h1><b>Hi! I'm Rob! I teach people how to code and make websites.</h1></div>
+
+    <div id="about">
+<h3>About me123</h3>
+
+
+
+
+    </div>
+</body>
+
+</html>
